@@ -44,7 +44,7 @@ def number_to_name(number):
     elif(number == 3):
         return "lizard"
     elif(number == 4):
-        return "scissor"
+        return "scissors"
     else:
         #nothing.
         print "invalid number chosen"
