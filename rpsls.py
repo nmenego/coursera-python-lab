@@ -1,4 +1,5 @@
-# Rock-paper-scissors-lizard-Spock template
+# Rock-paper-scissors-lizard-Spock
+# by nmenego
 
 # The key idea of this program is to equate the strings
 # "rock", "paper", "scissors", "lizard", "Spock" to numbers
@@ -27,8 +28,7 @@ def name_to_number(name):
     elif(name == "scissors"):
         return 4
     else:
-        #nothing.
-        print "invalid name chosen"
+        print "ERROR: Chosen name was invalid!"
         return
 
 
@@ -46,13 +46,12 @@ def number_to_name(number):
     elif(number == 4):
         return "scissors"
     else:
-        #nothing.
-        print "invalid number chosen"
+        print "ERROR: Chosen number was invalid!"
         return
 
 def rpsls(player_choice): 
     # print a blank line to separate consecutive games
-    print 
+    print
 
     # print out the message for the player's choice
     print "Player chooses " + player_choice
@@ -61,7 +60,7 @@ def rpsls(player_choice):
     player_number = name_to_number(player_choice)
     
     # compute random guess for comp_number using random.randrange()
-    comp_number = random.randrange(4)
+    comp_number = random.randrange(5)
 
     # convert comp_number to comp_choice using the function number_to_name()
     comp_choice = number_to_name(comp_number)
