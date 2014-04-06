@@ -1,5 +1,4 @@
 #Week 2 Lab
-#Week 2 lab
 #Guess the number
 #by nmenego
 
