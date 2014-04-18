@@ -7,6 +7,6 @@ Codes are written on [CodeSkulptor](https://www.codeskulptor.org) and transferre
 
 I am posting this for my own consumption and documentation. Please do your own homework. :)
 
-Mini-project # 1 - Rock-paper-scissors-lizard-Spock
-Mini-project # 2 - "Guess the number" game"
-Mini-project # 3 - "Stopwatch: The Game"
+* Mini-project # 1 - Rock-paper-scissors-lizard-Spock
+* Mini-project # 2 - "Guess the number" game"
+* Mini-project # 3 - "Stopwatch: The Game"
